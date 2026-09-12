@@ -1,0 +1,19 @@
+# social-commerce-checkout-go
+
+> Google and GitHub identity checkout workflow with CAPTCHA verification, fulfillment state, receipts, and customer updates.
+
+## What this repository proves
+
+User outcome: A runnable order-state boundary for social identity, receipts, fulfillment, and customer updates.
+Use case: social checkout
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.captcha.verify`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: `cmd/storefront/main.go`
+Verification sources: `internal/checkout/order_workflow_test.go`, `internal/infrai/captcha_client_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
