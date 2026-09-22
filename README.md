@@ -55,3 +55,7 @@ The code stays simple on purpose, less to page us at 3am. Here's what to set up 
 
 **Social Commerce Checkout Go: CAPTCHA**
 - **Social Commerce Checkout Go:** Verify tokens **server-side** only (`POST /v1/captcha/verify`); configure your widget/site key and a sensible score threshold.
+
+## Further reading
+
+- [Soft vs Hard Delete: 3 User Account API Boundaries for GDPR](docs/soft-vs-hard-delete-3-user-account-api-boundaries-s6ba4o.md)
